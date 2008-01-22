@@ -121,7 +121,7 @@ The result looks like this:
 <key>FamilyID</key>
 <integer>9</integer>
 <key>FireWireGUID</key>
-<string>000A2700194C39AB</string>
+<string>000A2xxxxxxxxxAB</string>
 <key>FireWireVersion</key>
 <string>1.62</string>
 <key>ImageSpecifications</key>
