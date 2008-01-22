@@ -398,7 +398,7 @@ The file format is the same but the structure is very different. This file inclu
 
 The `iPodSoftwareVersions` key is an array of iPod firmware information indexed by the `UpdaterFamilyID` found in the first step. The above snippet is meant to be used with iPods returning `UpdaterFamilyID` of 24.
 
-The interesting part is the `FirmwareURL` key of course pointing to the file we need to download. I have not yet determined how iTunes is able to tell if the version installed on your iPod is the latest one as both `BuildID` and `VisibleBuildID` in the versions database are integers and don't appear in the file obtained from the iPod in the first step.
+The interesting part is the `FirmwareURL` key of course pointing to the file we need to download. I have not yet determined how iTunes is able to tell if the version installed on your iPod is the latest one as both `BuildID` and `VisibleBuildID` in the version database are integers and are nowhere to be found in the file obtained from the iPod in the first step.
 
 = Uploading firmware =
 
